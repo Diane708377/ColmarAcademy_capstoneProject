@@ -374,3 +374,79 @@ header, .header-logo, footer, .campus-tile, .exhibit-tile {
 .learning-topics {
   flex-wrap: wrap;
 }
+
+/* pseudo class and transition settings */
+
+/* all notations: color-name: Light green, hex: #90EE90, rgb(144, 238, 144), hsl(120, 73.4%, 74.9%) */
+/* all notations: color-name: Dark goldenrod, hex: #B8860B, rgb(184, 134, 11), hsl(42.7, 88.7%, 38.2%) */
+/* all notations: color-name: Light yellow, hex: #FFFFED, rgb(255, 255, 237), hsl(60, 100%, 96.5%)  */
+.header-nav ul li a:hover {
+  background-color: lightgreen;
+  border-bottom: 0.2em solid darkgoldenrod;
+  color: lightyellow;
+}
+/* all notations: color-name: Maroon, hex: #800000, rgb(128, 0, 0), hsl(0, 100%, 25.1%) */
+/* all notations: color-name: Yellow, hex: #FFFF00, rgb(255, 255, 0), hsl(60, 100%, 50%) */
+.header-nav ul li a:visited {
+  background-color: maroon;
+  color: yellow;
+}
+/* all notations: color-name: Light green, hex: #90EE90, rgb(144, 238, 144), hsl(120, 73.4%, 74.9%) */
+/* all notations: color-name: Chocolate, hex: #D2691E, rgb(210, 105, 30), hsl(25, 75%, 47.1%) */
+/* all notations: color-name: Light yellow, hex: #FFFFED, rgb(255, 255, 237), hsl(60, 100%, 96.5%)  */
+.signUp-btn:hover {
+  background-color: lightgreen;
+  border: 1rem solid chocolate;
+  color: lightyellow;
+}
+/* all notations: color-name: Maroon, hex: #800000, rgb(128, 0, 0), hsl(0, 100%, 25.1%) */
+/* all notations: color-name: Gold, hex: #FFD700 , rgb(255, 215, 0), hsl(50.6, 100%, 50%) */
+/* all notations: color-name: Yellow, hex: #FFFF00, rgb(255, 255, 0), hsl(60, 100%, 50%) */
+.signUp-btn:active {
+  background-color: maroon;
+  border: 1rem solid gold;
+  color: yellow;
+}
+/* all notations: color-name: Dark green, hex: #013220, rgb(1, 50, 32), hsl(158, 96.1%, 10%) */
+/* all notations: color-name: Light yellow, hex: #FFFFED, rgb(255, 255, 237), hsl(60, 100%, 96.5%) */
+.news-link a:hover {
+  background-color: darkgreen;
+  color: lightyellow;
+}
+/* all notations: color-name: Maroon, hex: #800000, rgb(128, 0, 0), hsl(0, 100%, 25.1%) */
+/* all notations: color-name: Khaki, hex: #C3B091, rgb(195, 176, 145), hsl(37.2, 29.4%, 66.7%) */
+.news-link a:visited {
+  background-color: maroon;
+  color: khaki;
+}
+
+.topic-course {
+  opacity: 0.8;
+  transition: opacity 1.5s ease-out 0s;
+}
+
+.topic-course:hover {
+  opacity: 1;
+}
+/* all notations: color-name: Goldenrod , hex: #DAA520 , rgb(218, 165, 32), hsl(42.9, 74.4%, 49%) */
+.learning-topics .topic-course:nth-child(2n+1) {
+  border-bottom: 0.3rem solid goldenrod;
+}
+/* all notations: color-name: Khaki, hex: #C3B091, rgb(195, 176, 145), hsl(37.2, 29.4%, 66.7%) */
+.learning-topics .topic-course:nth-child(2n+2) {
+  border-bottom: 0.5rem solid khaki;
+}
+/* all notations: color-name: Dark green, hex: #013220, rgb(1, 50, 32), hsl(158, 96.1%, 10%) */
+/* all notations: color-name: Khaki, hex: #C3B091, rgb(195, 176, 145), hsl(37.2, 29.4%, 66.7%) */
+.footer-nav ul li a:hover {
+  background-color: darkgreen;
+  color: khaki;
+}
+/* all notations: color-name: Maroon, hex: #800000, rgb(128, 0, 0), hsl(0, 100%, 25.1%) */
+/* all notations: color-name: Yellow, hex: #FFFF00, rgb(255, 255, 0), hsl(60, 100%, 50%) */
+.footer-nav ul li a:visited {
+  background-color: maroon;
+  color: yellow;
+}
+
+/* =========================================================================== */
