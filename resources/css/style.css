@@ -1026,3 +1026,71 @@ see the lesson subjects */
     text-align: justify;
   }
 }
+
+/* media query for the mobile breaking point: */
+
+@media only screen and (max-width: 650px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1, h2, h4, p, h3, h5, h6, a, button {
+    font-family: "Cantarell", "Helvetica", sans-serif;
+  }
+
+  header {
+    /* These vendor prefix properties are here to solve some compatibility problems
+ with some browser versions when using flexbox: */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+ /*-----------------------------------------------------------------------------*/
+     display: flex;
+
+     /* These vendor prefix properties are here to solve some compatibility problems
+  with some browser versions when using flexbox: */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+  /*------------------------------------------------------------------------------*/
+     justify-content: center;
+   }
+
+  .header-logo img {
+    margin: 0;
+    min-width: 1.75rem;
+    opacity: 0.8;
+    padding: 0.5rem;
+    position: relative;
+    left: 2rem;
+  }
+
+  .logo-heading-mobile {
+    right: 1.26rem;
+  }
+
+  .header-icon-mobile {
+    display: inline-block;
+    line-height: 4rem;
+    margin-left: 1.25rem;
+    margin-right: 1rem;
+    position: relative;
+    right: 0.5rem;
+    width: 1.75rem;
+  }
+
+  .header-icon-mobile:last-child {
+    margin-right: 5.5rem;
+  }
+
+  .header-icon-mobile i {
+    border-radius: 40%;
+    margin-right: 0.75rem;
+    padding: 0.75rem;
+    height: 1rem;
+    width: 1.75rem;
+  }
+
+  .jumbotron-top-mobile h3 {
+    line-height: 1.8rem;
+  }
