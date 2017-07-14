@@ -37,3 +37,89 @@ It is displayed on the mobile version of the website */
 }
 
 /* ======================================================================================== */
+
+/* universal and shared styles: */
+
+/* This setting of the root element is used
+to determine the value of one rem,
+and therefore it is the base used to compute
+all the relative measurements values
+of this website */
+html {
+  font-size: 16px;
+}
+
+/* font and text settings */
+
+h1, h2, h4, p {
+  font-family: "Amaranth", "Lucida Sans", sans-serif;
+}
+
+h3, h5, h6, a, button {
+  font-family: "Luxi Mono", "Liberation Mono", monospace;
+}
+
+h1, h2, h3, h4, h5, h6, a, button, .signUp-text, .quote-author {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-heading,.information-motto, .video-heading, .video-quote {
+  font-style: italic;
+}
+
+/* The font size is set in descendant order from
+most important elements to less important ones */
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5, p {
+  font-size: 1.4rem;
+}
+
+h6,.footer-nav a {
+  font-size: 1.2rem;
+}
+
+.header-nav a, button {
+  font-size: 1.5rem;
+}
+
+.news-text, .news-link {
+  font-size: 1.3rem;
+}
+
+/* line height settings */
+
+h1, h2 {
+  line-height: 4rem;
+}
+
+h3 {
+  line-height: 3rem;
+}
+
+h4, h5, h6, blockquote, .signUp-text {
+  line-height: 2rem;
+}
+
+p, a {
+  line-height: 1.6rem;
+}
