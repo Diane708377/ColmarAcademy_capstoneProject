@@ -624,3 +624,35 @@ footer {
 }
 
 /* ========================================================================== */
+
+/* media query styles : */
+
+/* media query for the laptop breaking point */
+
+@media only screen and (max-width: 1200px) {
+ html {
+   font-size: 14px;
+ }
+
+ .header-nav a {
+   font-size: 1.4rem;
+ }
+
+ h3 {
+   font-size: 2.2rem;
+ }
+
+ .learning-topics {
+   margin: auto;
+   width: 60rem;
+ }
+
+ .topic-course {
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   padding-bottom: 1.5rem;
+   height: 23rem;
+   width: 17.75rem;
+ }
+}
