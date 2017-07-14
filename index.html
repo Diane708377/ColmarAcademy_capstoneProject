@@ -399,7 +399,90 @@ might be weird sometimes. Sorry. -->
 
       </section>
 
-      
+      <section class="main-section thesis">
+      <!-- The thesis section is divided into two main parts:
+      A global heading and a thesis content presentation -->
+
+        <h2 class="thesis-heading">
+          <span>Thesis Exhibit</span>
+        </h2>
+
+        <div class="thesis-content" aria-label="About Building design">
+          <!-- The thesis content is divided in two main blocks:
+          A video content part and a thesis exhibit news part. -->
+
+          <div class="content-video" aria-label ="Building design video">
+            <!-- The video is set to be auto played within a loop,
+            in a muted state -->
+            <video src="./resources/assets/videos/thesis.mp4" autoplay controls loop muted width="100%">video not supported</video>
+            <h4 class="video-heading" aria-label="Video description">
+              Reimagine urban
+            </h4>
+            <blockquote>
+              <p class="video-quote">
+                <!-- Using of the font awesome quote icons
+                to enhance the visibility of the blockquote content.-->
+                <i class="fa fa-quote-left"></i>
+                &nbsp;Curatur vitae libero in ipsum
+                porttitor consequat. Aliquam et commodo lectus,
+                nec consequat neque. Sed non accumsan urna.
+                Phasellus sed consequat ex.
+                Etiam eget magna laoreet, efficitur consequat,
+                tristique ligula.&nbsp;
+                <i class="fa fa-quote-right"></i>
+              </p>
+            </blockquote>
+          </div>
+
+          <div class="content-exhibit" role="complementary" aria-label="Thesis exhibit news">
+          <!-- The thesis exhibit news is divided in two parts and the ARIA role
+           with the complementary value indicates that it is linked with the content video. -->
+
+            <div class="exhibit-tile">
+            <!-- each exhibit tile has the same pattern.
+            And this pattern is very similar to the campus-tile seen before in this code.
+            So I use the same class name when it is possible:
+            tile-image, tile-news, ... -->
+
+              <div class="tile-image">
+                <img src="./resources/assets/images/thesis-fisma.jpg" alt="Thesis Fisma picture" />
+              </div>
+
+              <div class="tile-news">
+                <h4 class="news-heading" arial-label="Thesis title">
+                  Fisma: Design and ...
+                </h4>
+                <p class="news-text" aria-label="Thesis subject">
+                  Designer showcase of new prototype product
+                </p>
+              </div>
+
+            </div>
+
+            <div class="exhibit-tile">
+
+              <div class="tile-image">
+                <img src="./resources/assets/images/thesis-now-and-then.jpg" alt="Thesis Now and Then picture" />
+              </div>
+
+              <div class="tile-news">
+                <h4 class="news-heading" aria-label="Thesis title">
+                  Now and then
+                </h4>
+                <p class="news-text" aria-label="Thesis subject">
+                  Research study about New York
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
 
       <footer class="siteContent-footer">
       <!-- The footer has two parts:
