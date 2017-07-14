@@ -266,3 +266,72 @@ h1 {
   border-top: 0.2rem solid goldenrod;
   color: darkgreen;
 }
+
+/* display and sizing settings */
+
+.siteContent {
+  height: 100vh;
+  width: 96vw;
+  margin: auto;
+}
+
+.logo-heading-mobile, .header-icon-mobile, .jumbotron-top-mobile, .angle-mobile {
+  display: none;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 4rem;
+  padding: 0.5rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header-logo h3, .news-link a {
+  border-radius: 15%;
+}
+
+.header-nav ul li a, .signUp-btn, .footer-nav ul li a {
+  border-radius: 25%;
+}
+
+.jumbotron-banner, .information-motto, .content-video {
+  width: 60%;
+}
+
+.main-section h2, .header-logo h3 {
+  text-align: center;
+}
+
+.learning h2, .thesis h2 {
+  padding: 2rem;
+}
+
+h2 span, blockquote {
+  padding-left: 0.75rem;
+}
+
+blockquote {
+  text-align: justify;
+}
+
+.quote-heading, .quote-author, .video-heading {
+  margin-left: 0.75rem;
+}
+
+.campus-tile, .exhibit-tile {
+  height: 10.5rem;
+  width: 26.4375rem;
+}
+
+.tile-image {
+  margin: 1rem;
+  max-width: 35%;
+}
+
+.tile-news {
+  max-width: 55%;
+}
