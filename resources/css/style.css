@@ -450,3 +450,32 @@ header, .header-logo, footer, .campus-tile, .exhibit-tile {
 }
 
 /* =========================================================================== */
+
+/* header styles: */
+
+header {
+  height: 4rem;
+  padding-left: 1.5rem;
+  position: fixed;
+  right: 0.4rem;
+  width: 96.8%;
+  z-index: 100;
+}
+
+.header-logo h3 {
+  margin-left: 0.5rem;
+  padding: 0.1rem 1rem;
+  font-weight: 200;
+}
+
+.logo-heading strong {
+  font-weight: 900;
+}
+
+.header-nav {
+  padding-right: 1.5rem;
+}
+
+.header-nav ul li a {
+  padding: 0.3rem;
+}
