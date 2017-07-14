@@ -598,3 +598,29 @@ that the picture has a lower resolution than the original */
   position: sticky;
   top: 13.75rem;
 }
+
+/* thesis section styles */
+
+.thesis {
+  padding-bottom: 2rem;
+}
+
+.thesis-content {
+  margin-left: 1.5rem;
+}
+
+.video-heading {
+  padding: 1.5rem 0;
+}
+
+/* footer styles: */
+
+footer {
+  padding: 0rem 1.5rem;
+}
+
+.footer-nav ul li a {
+  padding: 0.2rem;
+}
+
+/* ========================================================================== */
