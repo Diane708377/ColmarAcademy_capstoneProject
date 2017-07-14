@@ -335,3 +335,42 @@ blockquote {
 .tile-news {
   max-width: 55%;
 }
+
+/* flexbox settings */
+
+header, .header-logo, .jumbotron, .information, .campus-tile,
+.learning-topics, .thesis-content, .exhibit-tile, footer {
+  /* These vendor prefix properties are here to solve some compatibility problems
+  with some browser versions when using flexbox: */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  /*---------------------------------------------------------------------------*/
+  display: flex;
+
+  align-content: center;
+}
+
+header, .header-logo, .campus-tile, .learning-topics, .exhibit-tile, footer {
+  /* These vendor prefix properties are here to solve some compatibility problems
+  with some browser versions when using flexbox: */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  /*---------------------------------------------------------------------------*/
+  align-items: center;
+}
+
+header, .header-logo, footer, .campus-tile, .exhibit-tile {
+  /* These vendor prefix properties are here to solve some compatibility problems
+  with some browser versions when using flexbox: */
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  /*----------------------------------------------------------------------------*/
+  justify-content: space-between;
+}
+
+.learning-topics {
+  flex-wrap: wrap;
+}
