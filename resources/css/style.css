@@ -529,3 +529,30 @@ that the picture has a lower resolution than the original */
 .signUp-heading, .signUp-text, .signUp-btn {
   width: 90%;
 }
+
+/* information section styles */
+
+.information-motto {
+  margin: 2rem 1.5rem;
+}
+
+.motto-quote h2 {
+  text-align: left;
+  padding-top: 2rem;
+}
+
+.motto-quote p {
+  padding: 1.5rem 0;
+}
+
+.information-campus {
+  margin-top: 1rem;
+}
+
+.news-text {
+  margin: 0.5rem auto;
+}
+
+.news-link a {
+  font-size: 1.2rem;
+}
