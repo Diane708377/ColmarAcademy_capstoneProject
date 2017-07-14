@@ -479,3 +479,53 @@ header {
 .header-nav ul li a {
   padding: 0.3rem;
 }
+
+/* jumbotron section styles: */
+
+.jumbotron {
+  padding-top: 4rem;
+}
+
+.jumbotron-banner, .jumbotron-signUp {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Asset management:
+The 'min' at the end of the image name indicates
+that the picture has a lower resolution than the original */
+.jumbotron-banner {
+  background-image: url("../assets/images/banner_min.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 1.5rem;
+}
+
+.jumbotron-signUp {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-left: 2.5rem;
+  width: 35%;
+}
+
+.signUp-heading {
+  padding-left: 1rem;
+  max-width: 85%;
+}
+
+.signUp-text {
+  padding: 4rem 0;
+  margin-bottom: 2rem;
+}
+
+.signUp-btn {
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 3rem;
+  padding: 0.5rem 0;
+}
+
+.signUp-heading, .signUp-text, .signUp-btn {
+  width: 90%;
+}
