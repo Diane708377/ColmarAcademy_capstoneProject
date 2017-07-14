@@ -556,3 +556,45 @@ that the picture has a lower resolution than the original */
 .news-link a {
   font-size: 1.2rem;
 }
+
+/* learning section styles */
+
+.learning {
+  padding-bottom: 1rem;
+}
+
+.learning-topics {
+  margin: auto;
+  width: 72rem;
+}
+
+.topic-course {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding-bottom: 1.5rem;
+  height: 23rem;
+  width: 21.75rem;
+}
+
+.course-image {
+  min-height: 30%;
+}
+
+.course-heading, .course-subheading, .course-description {
+  padding-left: 1rem;
+}
+
+.course-heading {
+  padding-top: 1rem;
+}
+
+.course-subheading {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.course-description {
+  position: sticky;
+  top: 13.75rem;
+}
