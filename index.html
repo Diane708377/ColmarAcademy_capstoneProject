@@ -147,7 +147,113 @@ might be weird sometimes. Sorry. -->
 
       </section>
 
-      
+      <section class="main-section information">
+      <!-- The information section has two main parts:
+      a motto blockquote part and a campus news part. -->
+
+        <div class="information-motto">
+
+          <div class="motto-image">
+            <img src="./resources/assets/images/information-main.jpg" alt="Information quote picture" />
+          </div>
+
+          <div class="motto-quote">
+            <h2 class="quote-heading">
+              It doesn't hurt to keep practicing
+            </h2>
+            <blockquote>
+              <p class="quote-text">
+                <!-- Using of the font awesome quote icons
+                to enhance the visibility of the blockquote content.-->
+                <i class="fa fa-quote-left"></i>
+                &nbsp;Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+                commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+                sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+                tristique ligula.&nbsp;
+                <i class="fa fa-quote-right"></i>
+              </p>
+            </blockquote>
+            <p class="quote-author">
+              Emmanuel, Sr Strategist at Hiring.com
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Using of the ARIA role attribute with the complementary value.
+        It indicates that this part is complementary with the motto part. -->
+        <div class="information-campus" id="on-campus" role="complementary" aria-label="Campus news">
+
+          <div class="campus-tile">
+
+            <!-- the image-mobile-number class is used to target this div
+            for background-image purpose, when the tablet/mobile will be displayed -->
+            <div class="tile-image image-mobile-one">
+              <img class="image-desktop" src="./resources/assets/images/information-orientation.jpg" alt="Orientation picture" />
+            </div>
+
+            <div class="tile-news">
+              <h4 class="news-heading">
+                Orientation date
+              </h4>
+              <p class="news-text">
+                Tue 10/11 &amp; Wed 10/12: 8am-3pm
+              </p>
+              <p class="news-link">
+                <a href="#">Read more</a>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="campus-tile">
+
+            <!-- the image-mobile-number class is used to target this div
+            for background-image purpose, when the tablet/mobile will be displayed -->
+            <div class="tile-image image-mobile-two">
+              <img class="image-desktop" src="./resources/assets/images/information-campus.jpg" alt="Campus picture" />
+            </div>
+
+            <div class="tile-news">
+              <h4 class="news-heading">
+                Our campus
+              </h4>
+              <p class="news-text">
+                Find which campus is close by you
+              </p>
+              <p class="news-link">
+                <a href="#">Read more</a>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="campus-tile">
+
+            <!-- the image-mobile-number class is used to target this div
+            for background-image purpose, when the tablet/mobile will be displayed -->
+            <div class="tile-image image-mobile-three">
+              <img class="image-desktop" src="./resources/assets/images/information-guest-lecture.jpg" alt="Campus picture" />
+            </div>
+
+            <div class="tile-news">
+              <h4 class="news-heading">
+                Our guest lecture
+              </h4>
+              <p class="news-text">
+                Join a keynote with Oliver Sack
+                about music in medical treatment
+              </p>
+              <p class="news-link">
+                <a href="#">Read more</a>
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
 
       <footer class="siteContent-footer">
       <!-- The footer has two parts:
